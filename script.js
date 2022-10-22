@@ -37,7 +37,7 @@
                         minutoAtual--;
                         segundoAtual = 59;
                     }else{
-                        informacao.childNodes[1].innerHTML = "Tempo esgotado!";
+                        alert("Tempo esgotado!")
                         document.getElementById("sound").play();
                         clearInterval(interval);
                     }
