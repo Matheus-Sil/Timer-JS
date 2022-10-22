@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cronometro com JavaScript</title>
+</head>
+<body>
+    <audio id="sound" src="salamisound-7465267-alarm-clock-ringing-pitch-up.mp3" style="display:none;"></audio>
+    <h1>Cronômetro</h1>
+    <div class="container">
+        <div class="container-tempo">
+        <h2>Minutos:</h2>
+        <select name="minutos" id="minutos"></select>
+        </div>
+
+        <div class="container-tempo">
+        <h2>Segundos:</h2>
+        <select name="segundos" id="segundos"></select>
+        </div>
+
+        <button id="comecar">Começar!</button>
+    </div>
+    <div id="informacao">
+        <h4></h4>
+    </div>
+    <div id="display">
+        <h3>00:00</h3>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
